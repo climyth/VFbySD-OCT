@@ -19,7 +19,7 @@ from matplotlib import pyplot as plt
 
 
 # Setup ===============================================================================
-image_file = "testset/922052712_20190131_OD.jpg"
+image_file = "testset/OCT016.jpg"
 output_folder = "output/CAM"
 weight_file = "weights/inceptionV3FinalTrained.hdf5"
 # =====================================================================================

@@ -17,4 +17,4 @@
 
 5. Run TestModel.py;
 6. You can see the popup window like below.
-![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestModelSetup.PNG?raw=true)
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestWindow.JPG?raw=true)

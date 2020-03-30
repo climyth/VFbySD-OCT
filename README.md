@@ -8,6 +8,11 @@
 - Uses combined OCT images (macula scan + ONH scan);
 - Mean prediction error is 4.79 dB
 
+### Prerequisites
+- python 3.6
+- tensorflow >= 1.6.0
+- keras 2.2.4
+
 ### How can I test OCT image?
 1. Download all files from github
 2. You can download weight file here: https://drive.google.com/open?id=1MEBzcT6MG9OfFdot_6mwhnIPsHdjVCnQ

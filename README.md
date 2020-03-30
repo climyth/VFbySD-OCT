@@ -1,4 +1,5 @@
 # Visual field prediction from SD-OCT
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/FigExamples.jpg?raw=true)
 
 ### Features
 - Inception V3 backboned deep learning model
@@ -13,6 +14,7 @@
 3. Open TestModel.py
 4. Modify "Setup"
 ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestModelSetup.PNG?raw=true)
+
 5. Run TestModel.py;
 6. You can see the popup window like below.
-![]()
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestModelSetup.PNG?raw=true)

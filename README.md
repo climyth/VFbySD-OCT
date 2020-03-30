@@ -35,9 +35,9 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 3. Image file name must follow the rule:<br/>
    (1) macular OCT: patientID_examdate_1.jpg  (ex. 012345678_20180403_1.jpg)<br/>
    (2) ONH OCT: patientID_examdate_2.jpg   (ex. 012345678_20180403_2.jpg)<br/>
-   * Note: Two images must have the same name (the only difference is last number _1 or _2)
+   Note: Two images must have the same name (the only difference is last number _1 or _2)
 4. Run "panomaker.exe"
 ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/panomaker.png?raw=true)
-<br/>
+<br/><br/>
 5. setup folders
 6. press Start button. That's it!

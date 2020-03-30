@@ -13,8 +13,7 @@
 2. You can download weight file here: https://drive.google.com/open?id=1MEBzcT6MG9OfFdot_6mwhnIPsHdjVCnQ
 3. Open TestModel.py
 4. Modify "Setup"
-![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestModelSetup.PNG?raw=true)
-'''python
+```python
 # Setup ====================================================================================
 image_file = "testset/OCT016.jpg"  # combined OCT image
 vf_file = "testset/VFTest.xlsm"   # ground truth visual field file
@@ -23,7 +22,7 @@ oct_filename_col = 0   # column number of OCT filename (minimum = 0)
 thv_start_col = 6   # column number where THV values start (minimum = 0)
 weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 # ===========================================================================================
-'''
+```
 5. Run TestModel.py;
 6. You can see the popup window like below.
 ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestWindow.JPG?raw=true)

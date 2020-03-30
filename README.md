@@ -9,7 +9,7 @@
 - Mean prediction error is 4.79 dB
 
 ### How can I test OCT image?
-1. Download all files and test images from github
+1. Download all files from github
 2. You can download weight file here: https://drive.google.com/open?id=1MEBzcT6MG9OfFdot_6mwhnIPsHdjVCnQ
 3. Open TestModel.py
 4. Modify "Setup"
@@ -18,3 +18,16 @@
 5. Run TestModel.py;
 6. You can see the popup window like below.
 ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/TestWindow.JPG?raw=true)
+
+### How can I make "combined OCT" image?
+1. Download "panomaker.exe" in "utils" folder
+2. In utils folder, there is sample OCT images to generate combined OCT image
+   You need 2 OCT images in pair. 1) macular OCT, 2) ONH OCT
+3. Image file name must follow the rule:
+   1) macular OCT: patientID_examdate_1.jpg  (ex. 012345678_20180403_1.jpg)
+   2) ONH OCT: patientID_examdate_2.jpg   (ex. 012345678_20180403_2.jpg)
+   Note: Two images must have the same name (the only difference is last number _1 or _2)
+4. Run "panomaker.exe"
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/panomaker.PNG?raw=true)
+5. setup folders
+6. press Start button. That's it!

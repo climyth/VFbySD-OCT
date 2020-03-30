@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 # Setup ====================================================================================
-image_file = "testset/922052712_20190131_OD.jpg"  # combined OCT image
+image_file = "testset/OCT016.jpg"  # combined OCT image
 vf_file = "testset/VFTest.xlsm"   # ground truth visual field file
 vf_sheet = "Test"  # data sheet in excel file
 oct_filename_col = 0   # column number of OCT filename (minimum = 0)

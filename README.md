@@ -42,3 +42,6 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 <br/><br/>
 5. set source folder and output folder
 6. press Start button. That's it!
+
+### For Research Use Only
+The performance characteristics of this product have not been evaluated by the Food and Drug Administration and is not intended for commercial use or purposes beyond research use only.

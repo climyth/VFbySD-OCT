@@ -1,5 +1,5 @@
 # Visual field prediction from SD-OCT
-![](https://github.com/climyth/VFbySD-OCT/blob/master/example/FigExamples.jpg?raw=true)
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/FigExamplpes.jpg?raw=true)
 
 ### Features
 - Inception V3 backboned deep learning model

@@ -29,7 +29,7 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 
 ### How can I make "combined OCT" image?
 1. Download "panomaker.exe" in "utils" folder
-2. In utils folder, there is sample OCT images to generate combined OCT image.<br/>
+2. In utils folder, there are sample OCT images to generate combined OCT image.<br/>
    You need 2 OCT images in pair like below. (1) macular OCT (2) ONH OCT<br/>
    ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/oct_example.jpg?raw=true)
    <br/>
@@ -40,5 +40,5 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 4. Run "panomaker.exe"<br/><br/>
 ![](https://github.com/climyth/VFbySD-OCT/blob/master/example/panomaker.png?raw=true)
 <br/><br/>
-5. setup folders
+5. set source folder and output folder
 6. press Start button. That's it!

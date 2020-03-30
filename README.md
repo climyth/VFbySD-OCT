@@ -28,6 +28,6 @@
    2) ONH OCT: patientID_examdate_2.jpg   (ex. 012345678_20180403_2.jpg)
    Note: Two images must have the same name (the only difference is last number _1 or _2)
 4. Run "panomaker.exe"
-![](https://github.com/climyth/VFbySD-OCT/blob/master/example/panomaker.PNG?raw=true)
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/panomaker.png?raw=true)
 5. setup folders
 6. press Start button. That's it!

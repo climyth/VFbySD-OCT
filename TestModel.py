@@ -23,7 +23,7 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 
 def read_visual_field(excel_file, sheet_name, oct_filename, filename_col=0, thv_col=135):
     worksheet = xlrd.open_workbook(excel_file).sheet_by_name(sheet_name)
-    nrows = worksheet.nrows - 1
+    nrows = worksheet.nrows
     y_data = np.empty([52])
 
     for r in range(1, nrows):

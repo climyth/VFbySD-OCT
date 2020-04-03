@@ -48,5 +48,30 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 5. set source folder and output folder
 6. press Start button. That's it!
 
+### How can I train model with my own OCT iamges?
+1. Prepare your own OCT iamges and visual field data (excel file)
+2. Generate "combined OCT" images from your train set
+3. In visual field excel file, 
+   (1) your data must be in "Train" data sheet
+   (2) the first column must be combined OCT image file paths
+   (3) visual field total threshold values must begin at 7th column by default (otherwise, you need to modify "LoadData")
+4. Modify 'Setup' in VFOCT_Train.py
+```python
+# Setup ====================================================================
+image_folder = ""   # root image folder for train set (combined OCT images)
+vf_file = "VFTrain.xlsm"   # visual field data excel file
+weight_save_folder = "Weights"
+graph_save_folder = ""   # model graph output folder
+pretrained_weights = ""   # if no pretrained weight, just leave ""
+tensorboard_log_folder = "logs"
+# ==========================================================================
+```
+5. Run the VFOCT_Train.py
+6. You can monitor loss trend in tensorboard. This is our trend curve for example.<br/><br/>
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/train_log1.png?raw=true)
+<br/><br/>
+7. To prevent overfitting, we used "repeated random sub-sampling cross validation method"
+
+
 ### For Research Use Only
 The performance characteristics of this product have not been evaluated by the Food and Drug Administration and is not intended for commercial use or purposes beyond research use only.

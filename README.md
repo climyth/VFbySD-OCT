@@ -48,7 +48,7 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 5. set source folder and output folder
 6. press Start button. That's it!
 
-### How can I train model with my own OCT iamges?
+### How can I train model with my own OCT images?
 1. Prepare your own OCT iamges and visual field data (excel file)
 2. Generate "combined OCT" images from your train set
 3. In visual field excel file, <br/>

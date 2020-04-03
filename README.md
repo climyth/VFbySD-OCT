@@ -55,6 +55,7 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
    (1) your data must be in "Train" data sheet <br/>
    (2) the first column must contain the list of image file names <br/>
    (3) visual field total threshold values must begin at 7th column by default (otherwise, you need to modify "LoadData") <br/>
+   (4) There must be 54 columns of total threshold values (includes two physiologic scotoma point).
 4. Modify 'Setup' in VFOCT_Train.py
 ```python
 # Setup ====================================================================

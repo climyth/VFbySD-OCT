@@ -68,7 +68,7 @@ tensorboard_log_folder = "logs"
 ```
 5. Run the VFOCT_Train.py
 6. You can monitor loss trend in tensorboard. This is our trend curve for example.<br/><br/>
-![](https://github.com/climyth/VFbySD-OCT/blob/master/example/train_log1.png?raw=true)
+![](https://github.com/climyth/VFbySD-OCT/blob/master/example/train_log_1.jpg?raw=true)
 <br/><br/>
 7. To prevent overfitting, we used "repeated random sub-sampling cross validation method"
 

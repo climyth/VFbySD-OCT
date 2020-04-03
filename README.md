@@ -53,7 +53,7 @@ weight_file = "weights/inceptionV3FinalTrained.hdf5"  # trained model
 2. Generate "combined OCT" images from your train set
 3. In visual field excel file, <br/>
    (1) your data must be in "Train" data sheet <br/>
-   (2) the first column must be combined OCT image file paths <br/>
+   (2) the first column must contain the list of image file names <br/>
    (3) visual field total threshold values must begin at 7th column by default (otherwise, you need to modify "LoadData") <br/>
 4. Modify 'Setup' in VFOCT_Train.py
 ```python
